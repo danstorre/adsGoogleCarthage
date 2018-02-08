@@ -22,6 +22,7 @@
 		FB030FB0202C833A00D67225 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
 		FB030FB1202C83A800D67225 /* GoogleMobileAds.framework in Sources */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
 		FB030FB2202C83B500D67225 /* GoogleMobileAds.framework in Headers */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
+		FB030FB3202C8BEF00D67225 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -416,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB030FB3202C8BEF00D67225 /* GoogleMobileAds.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
