@@ -18,6 +18,8 @@
 		FBD22737202CBC0200A1E475 /* addgoogle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD22730202CBC0200A1E475 /* addgoogle.framework */; };
 		FBD22738202CBC0200A1E475 /* addgoogle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBD22730202CBC0200A1E475 /* addgoogle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FBD2273D202CBC2400A1E475 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; };
+		FBD22741202CC4C700A1E475 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; };
+		FBD22742202CC4CC00A1E475 /* GoogleMobileAds.framework in Sources */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD22741202CC4C700A1E475 /* GoogleMobileAds.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD22742202CC4CC00A1E475 /* GoogleMobileAds.framework in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
