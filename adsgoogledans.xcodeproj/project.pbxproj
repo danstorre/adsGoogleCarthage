@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB030F5C202C829300D67225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB030F5B202C829300D67225 /* AppDelegate.swift */; };
+		FB030F5E202C829300D67225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB030F5D202C829300D67225 /* ViewController.swift */; };
+		FB030F61202C829300D67225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB030F5F202C829300D67225 /* Main.storyboard */; };
+		FB030F63202C829300D67225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB030F62202C829300D67225 /* Assets.xcassets */; };
+		FB030F66202C829300D67225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB030F64202C829300D67225 /* LaunchScreen.storyboard */; };
+		FB030F71202C829300D67225 /* adsgoogledansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB030F70202C829300D67225 /* adsgoogledansTests.swift */; };
+		FB030F7C202C829300D67225 /* adsgoogledansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB030F7B202C829300D67225 /* adsgoogledansUITests.swift */; };
+		FB030F97202C82C000D67225 /* adstarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F8E202C82C000D67225 /* adstarget.framework */; };
+		FB030F9E202C82C000D67225 /* adstargetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB030F9D202C82C000D67225 /* adstargetTests.swift */; };
+		FB030FA0202C82C000D67225 /* adstarget.h in Headers */ = {isa = PBXBuildFile; fileRef = FB030F90202C82C000D67225 /* adstarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB030FA3202C82C000D67225 /* adstarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F8E202C82C000D67225 /* adstarget.framework */; };
+		FB030FA4202C82C000D67225 /* adstarget.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB030F8E202C82C000D67225 /* adstarget.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB030FB0202C833A00D67225 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
+		FB030FB1202C83A800D67225 /* GoogleMobileAds.framework in Sources */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
+		FB030FB2202C83B500D67225 /* GoogleMobileAds.framework in Headers */ = {isa = PBXBuildFile; fileRef = FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB030F6D202C829300D67225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB030F50202C829300D67225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB030F57202C829300D67225;
+			remoteInfo = adsgoogledans;
+		};
+		FB030F78202C829300D67225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB030F50202C829300D67225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB030F57202C829300D67225;
+			remoteInfo = adsgoogledans;
+		};
+		FB030F98202C82C000D67225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB030F50202C829300D67225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB030F8D202C82C000D67225;
+			remoteInfo = adstarget;
+		};
+		FB030F9A202C82C000D67225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB030F50202C829300D67225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB030F57202C829300D67225;
+			remoteInfo = adsgoogledans;
+		};
+		FB030FA1202C82C000D67225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB030F50202C829300D67225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB030F8D202C82C000D67225;
+			remoteInfo = adstarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB030FA8202C82C000D67225 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB030FA4202C82C000D67225 /* adstarget.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB030F58202C829300D67225 /* adsgoogledans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adsgoogledans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F5B202C829300D67225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB030F5D202C829300D67225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB030F60202C829300D67225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB030F62202C829300D67225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB030F65202C829300D67225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB030F67202C829300D67225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB030F6C202C829300D67225 /* adsgoogledansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adsgoogledansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F70202C829300D67225 /* adsgoogledansTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adsgoogledansTests.swift; sourceTree = "<group>"; };
+		FB030F72202C829300D67225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB030F77202C829300D67225 /* adsgoogledansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adsgoogledansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F7B202C829300D67225 /* adsgoogledansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adsgoogledansUITests.swift; sourceTree = "<group>"; };
+		FB030F7D202C829300D67225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB030F8E202C82C000D67225 /* adstarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = adstarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F90202C82C000D67225 /* adstarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = adstarget.h; sourceTree = "<group>"; };
+		FB030F91202C82C000D67225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB030F96202C82C000D67225 /* adstargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adstargetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB030F9D202C82C000D67225 /* adstargetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adstargetTests.swift; sourceTree = "<group>"; };
+		FB030F9F202C82C000D67225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = adstarget/GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB030F55202C829300D67225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030FA3202C82C000D67225 /* adstarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F69202C829300D67225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F74202C829300D67225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F8A202C82C000D67225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030FB0202C833A00D67225 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F93202C82C000D67225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F97202C82C000D67225 /* adstarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB030F4F202C829300D67225 = {
+			isa = PBXGroup;
+			children = (
+				FB030F5A202C829300D67225 /* adsgoogledans */,
+				FB030F6F202C829300D67225 /* adsgoogledansTests */,
+				FB030F7A202C829300D67225 /* adsgoogledansUITests */,
+				FB030F8F202C82C000D67225 /* adstarget */,
+				FB030F9C202C82C000D67225 /* adstargetTests */,
+				FB030F59202C829300D67225 /* Products */,
+				FB030FAC202C832E00D67225 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB030F59202C829300D67225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F58202C829300D67225 /* adsgoogledans.app */,
+				FB030F6C202C829300D67225 /* adsgoogledansTests.xctest */,
+				FB030F77202C829300D67225 /* adsgoogledansUITests.xctest */,
+				FB030F8E202C82C000D67225 /* adstarget.framework */,
+				FB030F96202C82C000D67225 /* adstargetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB030F5A202C829300D67225 /* adsgoogledans */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F5B202C829300D67225 /* AppDelegate.swift */,
+				FB030F5D202C829300D67225 /* ViewController.swift */,
+				FB030F5F202C829300D67225 /* Main.storyboard */,
+				FB030F62202C829300D67225 /* Assets.xcassets */,
+				FB030F64202C829300D67225 /* LaunchScreen.storyboard */,
+				FB030F67202C829300D67225 /* Info.plist */,
+			);
+			path = adsgoogledans;
+			sourceTree = "<group>";
+		};
+		FB030F6F202C829300D67225 /* adsgoogledansTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F70202C829300D67225 /* adsgoogledansTests.swift */,
+				FB030F72202C829300D67225 /* Info.plist */,
+			);
+			path = adsgoogledansTests;
+			sourceTree = "<group>";
+		};
+		FB030F7A202C829300D67225 /* adsgoogledansUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F7B202C829300D67225 /* adsgoogledansUITests.swift */,
+				FB030F7D202C829300D67225 /* Info.plist */,
+			);
+			path = adsgoogledansUITests;
+			sourceTree = "<group>";
+		};
+		FB030F8F202C82C000D67225 /* adstarget */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F90202C82C000D67225 /* adstarget.h */,
+				FB030F91202C82C000D67225 /* Info.plist */,
+			);
+			path = adstarget;
+			sourceTree = "<group>";
+		};
+		FB030F9C202C82C000D67225 /* adstargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB030F9D202C82C000D67225 /* adstargetTests.swift */,
+				FB030F9F202C82C000D67225 /* Info.plist */,
+			);
+			path = adstargetTests;
+			sourceTree = "<group>";
+		};
+		FB030FAC202C832E00D67225 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB030FAF202C833A00D67225 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FB030F8B202C82C000D67225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030FA0202C82C000D67225 /* adstarget.h in Headers */,
+				FB030FB2202C83B500D67225 /* GoogleMobileAds.framework in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FB030F57202C829300D67225 /* adsgoogledans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030F80202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledans" */;
+			buildPhases = (
+				FB030F54202C829300D67225 /* Sources */,
+				FB030F55202C829300D67225 /* Frameworks */,
+				FB030F56202C829300D67225 /* Resources */,
+				FB030FA8202C82C000D67225 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB030FA2202C82C000D67225 /* PBXTargetDependency */,
+			);
+			name = adsgoogledans;
+			productName = adsgoogledans;
+			productReference = FB030F58202C829300D67225 /* adsgoogledans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB030F6B202C829300D67225 /* adsgoogledansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030F83202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledansTests" */;
+			buildPhases = (
+				FB030F68202C829300D67225 /* Sources */,
+				FB030F69202C829300D67225 /* Frameworks */,
+				FB030F6A202C829300D67225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB030F6E202C829300D67225 /* PBXTargetDependency */,
+			);
+			name = adsgoogledansTests;
+			productName = adsgoogledansTests;
+			productReference = FB030F6C202C829300D67225 /* adsgoogledansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB030F76202C829300D67225 /* adsgoogledansUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030F86202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledansUITests" */;
+			buildPhases = (
+				FB030F73202C829300D67225 /* Sources */,
+				FB030F74202C829300D67225 /* Frameworks */,
+				FB030F75202C829300D67225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB030F79202C829300D67225 /* PBXTargetDependency */,
+			);
+			name = adsgoogledansUITests;
+			productName = adsgoogledansUITests;
+			productReference = FB030F77202C829300D67225 /* adsgoogledansUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB030F8D202C82C000D67225 /* adstarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030FA5202C82C000D67225 /* Build configuration list for PBXNativeTarget "adstarget" */;
+			buildPhases = (
+				FB030F89202C82C000D67225 /* Sources */,
+				FB030F8A202C82C000D67225 /* Frameworks */,
+				FB030F8B202C82C000D67225 /* Headers */,
+				FB030F8C202C82C000D67225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adstarget;
+			productName = adstarget;
+			productReference = FB030F8E202C82C000D67225 /* adstarget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB030F95202C82C000D67225 /* adstargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB030FA9202C82C000D67225 /* Build configuration list for PBXNativeTarget "adstargetTests" */;
+			buildPhases = (
+				FB030F92202C82C000D67225 /* Sources */,
+				FB030F93202C82C000D67225 /* Frameworks */,
+				FB030F94202C82C000D67225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB030F99202C82C000D67225 /* PBXTargetDependency */,
+				FB030F9B202C82C000D67225 /* PBXTargetDependency */,
+			);
+			name = adstargetTests;
+			productName = adstargetTests;
+			productReference = FB030F96202C82C000D67225 /* adstargetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB030F50202C829300D67225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Wallmart;
+				TargetAttributes = {
+					FB030F57202C829300D67225 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB030F6B202C829300D67225 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB030F57202C829300D67225;
+					};
+					FB030F76202C829300D67225 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB030F57202C829300D67225;
+					};
+					FB030F8D202C82C000D67225 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB030F95202C82C000D67225 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB030F57202C829300D67225;
+					};
+				};
+			};
+			buildConfigurationList = FB030F53202C829300D67225 /* Build configuration list for PBXProject "adsgoogledans" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB030F4F202C829300D67225;
+			productRefGroup = FB030F59202C829300D67225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB030F57202C829300D67225 /* adsgoogledans */,
+				FB030F6B202C829300D67225 /* adsgoogledansTests */,
+				FB030F76202C829300D67225 /* adsgoogledansUITests */,
+				FB030F8D202C82C000D67225 /* adstarget */,
+				FB030F95202C82C000D67225 /* adstargetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB030F56202C829300D67225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F66202C829300D67225 /* LaunchScreen.storyboard in Resources */,
+				FB030F63202C829300D67225 /* Assets.xcassets in Resources */,
+				FB030F61202C829300D67225 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F6A202C829300D67225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F75202C829300D67225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F8C202C82C000D67225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F94202C82C000D67225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB030F54202C829300D67225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F5E202C829300D67225 /* ViewController.swift in Sources */,
+				FB030F5C202C829300D67225 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F68202C829300D67225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F71202C829300D67225 /* adsgoogledansTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F73202C829300D67225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F7C202C829300D67225 /* adsgoogledansUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F89202C82C000D67225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030FB1202C83A800D67225 /* GoogleMobileAds.framework in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB030F92202C82C000D67225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB030F9E202C82C000D67225 /* adstargetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB030F6E202C829300D67225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB030F57202C829300D67225 /* adsgoogledans */;
+			targetProxy = FB030F6D202C829300D67225 /* PBXContainerItemProxy */;
+		};
+		FB030F79202C829300D67225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB030F57202C829300D67225 /* adsgoogledans */;
+			targetProxy = FB030F78202C829300D67225 /* PBXContainerItemProxy */;
+		};
+		FB030F99202C82C000D67225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB030F8D202C82C000D67225 /* adstarget */;
+			targetProxy = FB030F98202C82C000D67225 /* PBXContainerItemProxy */;
+		};
+		FB030F9B202C82C000D67225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB030F57202C829300D67225 /* adsgoogledans */;
+			targetProxy = FB030F9A202C82C000D67225 /* PBXContainerItemProxy */;
+		};
+		FB030FA2202C82C000D67225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB030F8D202C82C000D67225 /* adstarget */;
+			targetProxy = FB030FA1202C82C000D67225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB030F5F202C829300D67225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB030F60202C829300D67225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB030F64202C829300D67225 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB030F65202C829300D67225 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB030F7E202C829300D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB030F7F202C829300D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB030F81202C829300D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB030F82202C829300D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB030F84202C829300D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adsgoogledans.app/adsgoogledans";
+			};
+			name = Debug;
+		};
+		FB030F85202C829300D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledansTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledansTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adsgoogledans.app/adsgoogledans";
+			};
+			name = Release;
+		};
+		FB030F87202C829300D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledansUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = adsgoogledans;
+			};
+			name = Debug;
+		};
+		FB030F88202C829300D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adsgoogledansUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adsgoogledansUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = adsgoogledans;
+			};
+			name = Release;
+		};
+		FB030FA6202C82C000D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adstarget",
+				);
+				INFOPLIST_FILE = adstarget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adstarget;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB030FA7202C82C000D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adstarget",
+				);
+				INFOPLIST_FILE = adstarget/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adstarget;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB030FAA202C82C000D67225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adstargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adstargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adsgoogledans.app/adsgoogledans";
+			};
+			name = Debug;
+		};
+		FB030FAB202C82C000D67225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = adstargetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.adstargetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adsgoogledans.app/adsgoogledans";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB030F53202C829300D67225 /* Build configuration list for PBXProject "adsgoogledans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030F7E202C829300D67225 /* Debug */,
+				FB030F7F202C829300D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030F80202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030F81202C829300D67225 /* Debug */,
+				FB030F82202C829300D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030F83202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030F84202C829300D67225 /* Debug */,
+				FB030F85202C829300D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030F86202C829300D67225 /* Build configuration list for PBXNativeTarget "adsgoogledansUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030F87202C829300D67225 /* Debug */,
+				FB030F88202C829300D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030FA5202C82C000D67225 /* Build configuration list for PBXNativeTarget "adstarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030FA6202C82C000D67225 /* Debug */,
+				FB030FA7202C82C000D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB030FA9202C82C000D67225 /* Build configuration list for PBXNativeTarget "adstargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB030FAA202C82C000D67225 /* Debug */,
+				FB030FAB202C82C000D67225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB030F50202C829300D67225 /* Project object */;
+}
