@@ -11,7 +11,6 @@
 		FB030FE8202C953B00D67225 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
 		FB030FED202CA1ED00D67225 /* GoogleMobileAds.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FB031001202CA76A00D67225 /* GoogleMobileAds.framework in Headers */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
-		FB03100D202CAA4700D67225 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -152,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB03100D202CAA4700D67225 /* GoogleMobileAds.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
