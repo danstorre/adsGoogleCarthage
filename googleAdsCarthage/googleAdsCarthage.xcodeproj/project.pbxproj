@@ -9,7 +9,23 @@
 /* Begin PBXBuildFile section */
 		FB030FDB202C94FD00D67225 /* googleAdsCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = FB030FCD202C94FC00D67225 /* googleAdsCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB030FE8202C953B00D67225 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
+		FB030FED202CA1ED00D67225 /* GoogleMobileAds.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB031001202CA76A00D67225 /* GoogleMobileAds.framework in Headers */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
+		FB03100D202CAA4700D67225 /* GoogleMobileAds.framework in Resources */ = {isa = PBXBuildFile; fileRef = FB030FE7202C953B00D67225 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB030FEC202CA1CE00D67225 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB030FED202CA1ED00D67225 /* GoogleMobileAds.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB030FCA202C94FC00D67225 /* googleAdsCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = googleAdsCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB030FDB202C94FD00D67225 /* googleAdsCarthage.h in Headers */,
+				FB031001202CA76A00D67225 /* GoogleMobileAds.framework in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +103,7 @@
 				FB030FC6202C94FC00D67225 /* Frameworks */,
 				FB030FC7202C94FC00D67225 /* Headers */,
 				FB030FC8202C94FC00D67225 /* Resources */,
+				FB030FEC202CA1CE00D67225 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -134,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB03100D202CAA4700D67225 /* GoogleMobileAds.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +298,17 @@
 				INFOPLIST_FILE = googleAdsCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.googleAdsCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -303,11 +328,17 @@
 				INFOPLIST_FILE = googleAdsCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.googleAdsCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Release;
 		};

@@ -14,6 +14,5 @@ FOUNDATION_EXPORT double googleAdsCarthageVersionNumber;
 //! Project version string for googleAdsCarthage.
 FOUNDATION_EXPORT const unsigned char googleAdsCarthageVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <googleAdsCarthage/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <googleAdsCarthage/PublicHeade
 
-#import <googleAdsCarthage/GoogleMobileAds.framework>
