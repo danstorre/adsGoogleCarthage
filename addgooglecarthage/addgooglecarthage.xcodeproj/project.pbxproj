@@ -12,18 +12,21 @@
 		FBD22700202CB8A000A1E475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD226FE202CB8A000A1E475 /* Main.storyboard */; };
 		FBD22702202CB8A000A1E475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD22701202CB8A000A1E475 /* Assets.xcassets */; };
 		FBD22705202CB8A000A1E475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD22703202CB8A000A1E475 /* LaunchScreen.storyboard */; };
-		FBD22710202CB8A000A1E475 /* addgooglecarthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD2270F202CB8A000A1E475 /* addgooglecarthageUITests.swift */; };
 		FBD2271B202CB91300A1E475 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; };
 		FBD2271C202CB91300A1E475 /* GoogleMobileAds.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBD22734202CBC0200A1E475 /* addgoogle.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD22732202CBC0200A1E475 /* addgoogle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD22737202CBC0200A1E475 /* addgoogle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD22730202CBC0200A1E475 /* addgoogle.framework */; };
+		FBD22738202CBC0200A1E475 /* addgoogle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBD22730202CBC0200A1E475 /* addgoogle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FBD2273D202CBC2400A1E475 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FBD2270C202CB8A000A1E475 /* PBXContainerItemProxy */ = {
+		FBD22735202CBC0200A1E475 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FBD226EF202CB8A000A1E475 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBD226F6202CB8A000A1E475;
-			remoteInfo = addgooglecarthage;
+			remoteGlobalIDString = FBD2272F202CBC0200A1E475;
+			remoteInfo = addgoogle;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,6 +38,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				FBD2271C202CB91300A1E475 /* GoogleMobileAds.framework in Embed Frameworks */,
+				FBD22738202CBC0200A1E475 /* addgoogle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,10 +53,14 @@
 		FBD22701202CB8A000A1E475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD22704202CB8A000A1E475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBD22706202CB8A000A1E475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD2270B202CB8A000A1E475 /* addgooglecarthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = addgooglecarthageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD2270F202CB8A000A1E475 /* addgooglecarthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addgooglecarthageUITests.swift; sourceTree = "<group>"; };
 		FBD22711202CB8A000A1E475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FBD22724202CBBE400A1E475 /* addsgoogleframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addsgoogleframework.h; sourceTree = "<group>"; };
+		FBD22725202CBBE400A1E475 /* addsgoogleframework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addsgoogleframework.m; sourceTree = "<group>"; };
+		FBD22730202CBC0200A1E475 /* addgoogle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = addgoogle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD22732202CBC0200A1E475 /* addgoogle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addgoogle.h; sourceTree = "<group>"; };
+		FBD22733202CBC0200A1E475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +69,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD2271B202CB91300A1E475 /* GoogleMobileAds.framework in Frameworks */,
+				FBD22737202CBC0200A1E475 /* addgoogle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBD22708202CB8A000A1E475 /* Frameworks */ = {
+		FBD2272C202CBC0200A1E475 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD2273D202CBC2400A1E475 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +90,10 @@
 				FBD2271A202CB91300A1E475 /* GoogleMobileAds.framework */,
 				FBD226F9202CB8A000A1E475 /* addgooglecarthage */,
 				FBD2270E202CB8A000A1E475 /* addgooglecarthageUITests */,
+				FBD22723202CBBE400A1E475 /* addsgoogleframework */,
+				FBD22731202CBC0200A1E475 /* addgoogle */,
 				FBD226F8202CB8A000A1E475 /* Products */,
+				FBD2273C202CBC2400A1E475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				FBD226F7202CB8A000A1E475 /* addgooglecarthage.app */,
-				FBD2270B202CB8A000A1E475 /* addgooglecarthageUITests.xctest */,
+				FBD22730202CBC0200A1E475 /* addgoogle.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,7 +128,43 @@
 			path = addgooglecarthageUITests;
 			sourceTree = "<group>";
 		};
+		FBD22723202CBBE400A1E475 /* addsgoogleframework */ = {
+			isa = PBXGroup;
+			children = (
+				FBD22724202CBBE400A1E475 /* addsgoogleframework.h */,
+				FBD22725202CBBE400A1E475 /* addsgoogleframework.m */,
+			);
+			path = addsgoogleframework;
+			sourceTree = "<group>";
+		};
+		FBD22731202CBC0200A1E475 /* addgoogle */ = {
+			isa = PBXGroup;
+			children = (
+				FBD22732202CBC0200A1E475 /* addgoogle.h */,
+				FBD22733202CBC0200A1E475 /* Info.plist */,
+			);
+			path = addgoogle;
+			sourceTree = "<group>";
+		};
+		FBD2273C202CBC2400A1E475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FBD2272D202CBC0200A1E475 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD22734202CBC0200A1E475 /* addgoogle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FBD226F6202CB8A000A1E475 /* addgooglecarthage */ = {
@@ -130,29 +179,30 @@
 			buildRules = (
 			);
 			dependencies = (
+				FBD22736202CBC0200A1E475 /* PBXTargetDependency */,
 			);
 			name = addgooglecarthage;
 			productName = addgooglecarthage;
 			productReference = FBD226F7202CB8A000A1E475 /* addgooglecarthage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FBD2270A202CB8A000A1E475 /* addgooglecarthageUITests */ = {
+		FBD2272F202CBC0200A1E475 /* addgoogle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBD22717202CB8A000A1E475 /* Build configuration list for PBXNativeTarget "addgooglecarthageUITests" */;
+			buildConfigurationList = FBD22739202CBC0200A1E475 /* Build configuration list for PBXNativeTarget "addgoogle" */;
 			buildPhases = (
-				FBD22707202CB8A000A1E475 /* Sources */,
-				FBD22708202CB8A000A1E475 /* Frameworks */,
-				FBD22709202CB8A000A1E475 /* Resources */,
+				FBD2272B202CBC0200A1E475 /* Sources */,
+				FBD2272C202CBC0200A1E475 /* Frameworks */,
+				FBD2272D202CBC0200A1E475 /* Headers */,
+				FBD2272E202CBC0200A1E475 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FBD2270D202CB8A000A1E475 /* PBXTargetDependency */,
 			);
-			name = addgooglecarthageUITests;
-			productName = addgooglecarthageUITests;
-			productReference = FBD2270B202CB8A000A1E475 /* addgooglecarthageUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = addgoogle;
+			productName = addgoogle;
+			productReference = FBD22730202CBC0200A1E475 /* addgoogle.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,10 +218,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					FBD2270A202CB8A000A1E475 = {
+					FBD2272F202CBC0200A1E475 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FBD226F6202CB8A000A1E475;
 					};
 				};
 			};
@@ -189,7 +238,7 @@
 			projectRoot = "";
 			targets = (
 				FBD226F6202CB8A000A1E475 /* addgooglecarthage */,
-				FBD2270A202CB8A000A1E475 /* addgooglecarthageUITests */,
+				FBD2272F202CBC0200A1E475 /* addgoogle */,
 			);
 		};
 /* End PBXProject section */
@@ -205,7 +254,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBD22709202CB8A000A1E475 /* Resources */ = {
+		FBD2272E202CBC0200A1E475 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,21 +273,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBD22707202CB8A000A1E475 /* Sources */ = {
+		FBD2272B202CBC0200A1E475 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD22710202CB8A000A1E475 /* addgooglecarthageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FBD2270D202CB8A000A1E475 /* PBXTargetDependency */ = {
+		FBD22736202CBC0200A1E475 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBD226F6202CB8A000A1E475 /* addgooglecarthage */;
-			targetProxy = FBD2270C202CB8A000A1E475 /* PBXContainerItemProxy */;
+			target = FBD2272F202CBC0200A1E475 /* addgoogle */;
+			targetProxy = FBD22735202CBC0200A1E475 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -374,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4V65GVN5Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -392,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4V65GVN5Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -405,33 +455,57 @@
 			};
 			name = Release;
 		};
-		FBD22718202CB8A000A1E475 /* Debug */ = {
+		FBD2273A202CBC0200A1E475 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = addgooglecarthageUITests/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = addgoogle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.addgooglecarthageUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.addgoogle;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = addgooglecarthage;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		FBD22719202CB8A000A1E475 /* Release */ = {
+		FBD2273B202CBC0200A1E475 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = addgooglecarthageUITests/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = addgoogle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.addgooglecarthageUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallmart.addgoogle;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = addgooglecarthage;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -456,11 +530,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBD22717202CB8A000A1E475 /* Build configuration list for PBXNativeTarget "addgooglecarthageUITests" */ = {
+		FBD22739202CBC0200A1E475 /* Build configuration list for PBXNativeTarget "addgoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBD22718202CB8A000A1E475 /* Debug */,
-				FBD22719202CB8A000A1E475 /* Release */,
+				FBD2273A202CBC0200A1E475 /* Debug */,
+				FBD2273B202CBC0200A1E475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
